@@ -1,44 +1,59 @@
 
 public class Main {
     public static void main(String args[]) throws Exception {
-        StackList stack=new StackList(3);
 
-            stack.push(1);
-            stack.push(2);
-            stack.push(3);
-        stack.show();
-            stack.push(4);
-        stack.push(5);
-        stack.show();
-        stack.push(6);
-        stack.show();
-        stack.push(7);
-        stack.show();
-        stack.push(8);
-        System.out.println(stack.isEmpty());
-        stack.show();
-        System.out.println(stack.pop());
-        stack.show();
-        System.out.println(stack.peek());
-        stack.show();
-        System.out.println(stack.size());
-        System.out.println(stack.pop());
-        stack.show();
-        System.out.println(stack.pop());
-        stack.show();
-        System.out.println(stack.pop());
-        System.out.println(stack.pop());
-        stack.show();
-        System.out.println(stack.pop());
-        stack.show();
-        stack.show();System.out.println(stack.pop());        stack.show();
-            System.out.println(stack.pop());
-
-
-        stack.show();
-        System.out.println(stack.isEmpty());
-
-
+        Queue q=new Queue(3);
+        q.enqueue(1);
+        q.show();
+        q.enqueue(2);
+        q.show();
+        q.enqueue(3);
+        q.show();
+        q.enqueue(4);
+        q.dequeue();
+        q.show();
+        q.dequeue();
+        q.show();
+        q.dequeue();
+        q.show();
+//        StackList stack=new StackList(3);
+//
+//            stack.push(1);
+//            stack.push(2);
+//            stack.push(3);
+//        stack.show();
+//            stack.push(4);
+//        stack.push(5);
+//        stack.show();
+//        stack.push(6);
+//        stack.show();
+//        stack.push(7);
+//        stack.show();
+//        stack.push(8);
+//        System.out.println(stack.isEmpty());
+//        stack.show();
+//        System.out.println(stack.pop());
+//        stack.show();
+//        System.out.println(stack.peek());
+//        stack.show();
+//        System.out.println(stack.size());
+//        System.out.println(stack.pop());
+//        stack.show();
+//        System.out.println(stack.pop());
+//        stack.show();
+//        System.out.println(stack.pop());
+//        System.out.println(stack.pop());
+//        stack.show();
+//        System.out.println(stack.pop());
+//        stack.show();
+//        stack.show();System.out.println(stack.pop());        stack.show();
+//            System.out.println(stack.pop());
+//
+//
+//        stack.show();
+//        System.out.println(stack.isEmpty());
+//
+//
 
 
 //        Stack stack=new Stack(3);
